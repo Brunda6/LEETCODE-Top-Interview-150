@@ -27,8 +27,7 @@ This repository contains my solutions to 150 popular LeetCode interview question
 
 ## Getting Started
 
-Clone this repository to access all the Java solutions :  [git clone https://github.com/yourusername/leetcode-150-solutions.git
-](https://github.com/Brunda6/LEETCODE-Top-Interview-150-/tree/main)
+Clone this repository to access all the Java solutions :  (https://github.com/Brunda6/LEETCODE-Top-Interview-150-/tree/main)
 ## Running the Code
 You can run any solution using your favorite Java IDE (like IntelliJ, Eclipse, or VS Code). To compile and run from the terminal:
     javac ProblemName.java
