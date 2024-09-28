@@ -30,9 +30,8 @@ This repository contains my solutions to 150 popular LeetCode interview question
 Clone this repository to access all the Java solutions :  (https://github.com/Brunda6/LEETCODE-Top-Interview-150-/tree/main)
 
 ## Running the Code
-You can run any solution using your favorite Java IDE (like IntelliJ, Eclipse, or VS Code). To compile and run from the terminal: 
-` ```sh
-**javac ProblemName.java** `
+You can run any solution using your favorite Java IDE (like IntelliJ, Eclipse, or VS Code). To compile and run from the terminal: <br>
+` **javac ProblemName.java** `
 
 ## Contribution
 Feel free to contribute by adding new solutions or improving the existing ones. Open an issue or submit a pull request.
