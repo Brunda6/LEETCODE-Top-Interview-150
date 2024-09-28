@@ -31,7 +31,8 @@ Clone this repository to access all the Java solutions :  (https://github.com/Br
 
 ## Running the Code
 You can run any solution using your favorite Java IDE (like IntelliJ, Eclipse, or VS Code). To compile and run from the terminal: 
-**javac ProblemName.java**
+` ```sh
+**javac ProblemName.java** `
 
 ## Contribution
 Feel free to contribute by adding new solutions or improving the existing ones. Open an issue or submit a pull request.
