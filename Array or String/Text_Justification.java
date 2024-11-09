@@ -63,6 +63,8 @@ class Solution {
             int totalSpaces = maxWidth - lineLength;
             StringBuilder line = new StringBuilder();
 
+
+            // This section handles the last line or lines that contain only one word, where the words are aligned to the left and extra spaces are added to the end
             // Special handling for the last line
             if (index == words.length || numWords == 1) {
                 // Left-justified line
@@ -74,10 +76,13 @@ class Solution {
                 while (line.length() < maxWidth) {
                     line.append(" ");
                 }
-            } else {
+            } 
+            
+            // This section handles lines that need full justification, distributing spaces evenly between words
+            else {
                 // Fully justified line
-                int spacesBetweenWords = totalSpaces / (numWords - 1);
-                int extraSpaces = totalSpaces % (numWords - 1);
+                int spacesBetweenWords = totalSpaces / (numWords - 1); // is the minimum number of spaces between each word
+                int extraSpaces = totalSpaces % (numWords - 1);  // is the remainder when distributing spaces evenly; these are the additional spaces to be distributed among the first few gaps.
 
                 for (int i = lineStart; i < index; i++) {
                     line.append(words[i]);
